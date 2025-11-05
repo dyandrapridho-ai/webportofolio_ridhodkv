@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+} 
+
+.teks-putih{
+    color: #191970;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 60px;
+    text-decoration: underline;
+}

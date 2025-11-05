@@ -1,0 +1,64 @@
+body{
+    
+}
+
+
+
+
+.header{
+    width: 1350px;
+    height: 100px;
+    background-color: rgb(206, 45, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    width: 200px;
+    height: 500px;
+    background-color: rgb(51, 112, 192);
+    display: flex;
+    justify-content: center;
+
+}
+.tengah{
+    display:flex ;
+    flex-direction: row;
+ }   
+.footer{
+    width: 1350px;
+    height: 60px;
+    background-color:rgb(66, 201, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 1150px;
+    height: 500px;
+    padding: 10px;
+    background-color: rgb(78, 196, 42);
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 10px;
+
+}
+.kotak{
+    background-color: white;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgb(66, 63, 63);
+    text-align: center;
+    border-radius: 13px;
+}
+.kotak:hover{
+    background-color: rgb(49, 174, 212);
+    border: 1px solid rgb(233, 182, 73);
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgb(97, 94, 94);
+    text-align: center;
+}
